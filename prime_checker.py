@@ -8,7 +8,7 @@ def is_prime(n):
     return True
 
 if __name__ == "__main__":
-    num = int(input("Enter a number: "))
+    num = 29
     if is_prime(num):
         print(f"{num} is a prime number.")
     else:
